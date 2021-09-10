@@ -17,6 +17,9 @@
 	</head>
 	<body>
 		<!-- Start content -->
+		<!-- <nav>
+			<ul id="list"></ul>
+		</nav> -->
 		<div id="myData">
 			<ul></ul>
 		</div>
@@ -34,16 +37,6 @@
 		</script>
 		<script>
 			//fetch API
-			fetch("team.json")
-				.then(function (res) {
-					return res.json();
-				})
-				.then(function (data) {
-					appendData(data);
-				});
-			/* .catch(function (err) {
-					console.log(err);
-				}) */
 		</script>
 		<noscript>
 			<link rel="stylesheet" href="css/style.css" />
